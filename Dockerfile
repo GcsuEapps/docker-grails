@@ -1,4 +1,4 @@
-FROM mozart/grails:latest
+FROM mozart/grails:2.4.4
 MAINTAINER Cody Mize <cody.mize@gcsu.edu>
 
 RUN apt-get update && apt-get install -y \
